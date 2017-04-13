@@ -8,7 +8,7 @@ Python library to access DTN / IQFeed's historical data for Equities and Futures
  * IQFeed client (e.g. [quantomatic/iqfeed-latest'](https://github.com/quantmatic/iqfeed-latest))
 
 ## Installation
-`$ pip install iq2mongo`
+`$ pip install git+https://github.com/Quantmatic/iq2mongo.git`
 
 ### Start IQFeed client
 `$ docker run -e LOGIN='<username>' -e PASSWORD='<password>' -p 9100:9101 quantomatic/iqfeed-latest`
