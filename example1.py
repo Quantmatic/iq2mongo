@@ -5,7 +5,7 @@
 import datetime
 import time
 import logging
-from iq2mongo3 import Iqfeedhistoricdata
+from iq2mongo import Iqfeedhistoricdata
 LOG = logging.getLogger()
 
 symbols = ['SPY', 'QQQ', 'GLD', 'EFA', 'EWJ', 'EEM', 'IYR', 'RWX', 'IEF', 'TLT', \
