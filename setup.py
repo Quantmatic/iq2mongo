@@ -1,7 +1,7 @@
 import setuptools
 import os
 
-project_url = 'http://github.com/quantmatic/iq2mongo/iq2mongo'
+project_url = 'http://github.com/quantmatic/iq2mongo/'
 
 try:
     import pypandoc
