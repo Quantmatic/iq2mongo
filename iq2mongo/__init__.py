@@ -1,0 +1,1 @@
+from iq2mongo import Iqfeedhistoricdata
