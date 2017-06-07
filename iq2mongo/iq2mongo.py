@@ -1,4 +1,4 @@
-""" Alex Orion's MongoDB loader for IQFeed historical quotes """
+""" Quantomatic MongoDB loader for IQFeed historical quotes """
 import io
 import sys
 import socket
@@ -14,7 +14,7 @@ LOG.setLevel(logging.INFO)
 LOGCONSOLE.setLevel(logging.INFO)
 LOG.addHandler(LOGCONSOLE)
 
-class Iqfeedhistoricdata:
+class Iqfeedhistoricdata(object):
     """ download historical datat from iqfeed """
     def __init__(self, startdate, enddate, interval=60, mode='Equity'):
 
