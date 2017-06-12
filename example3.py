@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
     Download list of symbols from IQFeed
-    @author: Alex Orion
 """
 import datetime
 import time
